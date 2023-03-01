@@ -1,15 +1,18 @@
 # Week 1 — App Containerization
 
-i faced difficulties running docker and installing it
+I faced difficulties running docker and installing it
 
 faced difficulties with open ports not working 
+was able to copy the missing js and CSS pages
 
-Run the dockerfile CMD as an external script
-Push and tag a image to DockerHub (they have a free tier)
-Use multi-stage building for a Dockerfile build
-Implement a healthcheck in the V3 Docker compose file
-Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
-Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
-Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes.
-
-
+Create a new GitHub repo done
+Launch the repo within a Gitpod workspace done
+Configure Gitpod.yml configuration, eg. I’m VSCode Extensions done
+Clone the frontend and backend repo done
+Explore the codebases done
+Ensure we can get the apps running locally no didn't work 
+Write a Dockerfile for each app done
+Ensure we get the apps running via individual container done 
+Create a docker-compose file done 
+Ensure we can orchestrate multiple containers to run side by side done 
+Mount directories so we can make changes while we code 
