@@ -22,3 +22,6 @@ source venv/bin/activate
 ```
 pip install flask
 ```
+
+
+gp env HONEYCOMB_API_KEY="0gZSDX9OMRptlm01VmyFsD"
