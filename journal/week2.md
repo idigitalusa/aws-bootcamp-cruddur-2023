@@ -12,14 +12,21 @@ from opentelemetry import trace
 tracer = trace.get_tracer("tracer.name.here")
 
 
-Instrument our backend flask application to use Open Telemetry (OTEL) with Honeycomb.io as the provider
+Instrument our backend flask application to use Open Telemetry (OTEL) with Honeycomb.io as the provider comleted and checked 
 Run queries to explore traces within Honeycomb.io
+completed and worked in the code 
 Instrument AWS X-Ray into backend flask application
-Configure and provision X-Ray daemon within docker-compose and send data back to X-Ray API
-Observe X-Ray traces within the AWS Console
-Integrate Rollbar for Error Logging
-Trigger an error an observe an error with Rollbar
+
+completed in the code but not in aws 
+
+Configure and provision X-Ray daemon within docker-compose and send data back to X-Ray API not completed in aws 
+Observe X-Ray traces within the AWS Console not completed in aws 
+Integrate Rollbar for Error Logging completed and tesetd and got the hellow world 
+Trigger an error an observe an error with Rollbar can not sync with rollbar though link is working 
+
 Install WatchTower and write a custom logger to send application log data to CloudWatch Log group
+
+completed in code but not in aws 
 
 
 
