@@ -5,3 +5,10 @@ adding honey comb to backend
 OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
 OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
 OTEL_SERVICE_NAME: "${HONEYCOMB_SERVICE_NAME}"
+
+
+from opentelemetry import trace
+
+tracer = trace.get_tracer("tracer.name.here")
+
+
