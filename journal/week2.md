@@ -27,3 +27,7 @@ Install WatchTower and write a custom logger to send application log data to Clo
 Instrument Honeycomb for the frontend-application to observe network latency between frontend and backend[HARD]
 Add custom instrumentation to Honeycomb to add more attributes eg. UserId, Add a custom span
 Run custom queries in Honeycomb and save them later eg. Latency by UserID, Recent Traces
+
+
+export ROLLBAR_ACCESS_TOKEN="dfd6c6ceb95248abb0a71f5b77d500db"
+gp env ROLLBAR_ACCESS_TOKEN="dfd6c6ceb95248abb0a71f5b77d500db"
